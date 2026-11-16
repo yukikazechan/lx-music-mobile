@@ -6,6 +6,24 @@ const { createThemeColors } = require('./utils')
 
 const defaultThemes = [
   {
+    id: 'luminous_ice_blue',
+    name: 'Luminous 冰蓝微光',
+    isDark: false,
+    config: {
+      primary: 'rgb(25, 118, 210)',
+      font: 'rgb(30, 41, 59)',
+      'c-app-background': 'rgba(157, 163, 178, 1)',
+      'c-main-background': 'rgba(230, 237, 253, 1)',
+      'bg-image': '',
+      'bg-image-position': 'center',
+      'bg-image-size': 'cover',
+
+      'c-badge-primary': 'rgb(25, 118, 210)',
+      'c-badge-secondary': 'rgb(215, 223, 236)',
+      'c-badge-tertiary': 'rgb(203, 222, 255)',
+    },
+  },
+  {
     id: 'green',
     name: '绿意盎然',
     isDark: false,
